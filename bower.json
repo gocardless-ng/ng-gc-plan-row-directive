@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "main": "ng-gc-plan-row-directive.js",
   "dependencies": {
-    "bower-angular": "git@github.com:angular/bower-angular.git#v1.2.0-rc.2"
+    "bower-angular": "git@github.com:angular/bower-angular.git#v1.2.0-rc.2",
+    "ng-gc-intervals-directive": "git@github.com:gocardless-ng/ng-gc-intervals-directive.git",
+    "ng-gc-utils": "git@github.com:gocardless-ng/ng-gc-utils.git"
   },
   "devDependencies": {
     "bower-angular-mocks": "git@github.com:angular/bower-angular-mocks.git#v1.2.0-rc.2",
