@@ -4,8 +4,8 @@
 
     <div class="table__cell">
       <div class="u-pull-start payments__list__item__icon" ng-show="isAuthorization">
-        <i ng-hide="currency === 'EUR'" class="icon-direct-debit"></i>
-        <i ng-show="currency === 'EUR'" class="icon-sepa"></i>
+        <i ng-hide="plan.currency === 'EUR'" class="icon-direct-debit"></i>
+        <i ng-show="plan.currency === 'EUR'" class="icon-sepa"></i>
       </div>
       <div class="u-pull-start">
         <h5 class="payments__list__item__name">{{ plan.name || plan.description || plan.id }}</h5>
