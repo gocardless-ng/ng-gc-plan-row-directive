@@ -22,7 +22,7 @@
         <div class="u-pull-end u-text-right" ng-hide="plan.is_blank_preauth">
           <div class="payments__list__item__meta__amount u-text-h1">
             <span ng-show="plan.max_amount">up to</span>
-            {{ plan.amount || plan.max_amount | currency }}
+            {{ plan.amount || plan.max_amount | currency:(plan.currency | currencySymbol ) }}
           </div>
           <div>
             <div ng-show="plan.recurring">

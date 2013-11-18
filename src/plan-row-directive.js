@@ -4,6 +4,7 @@ angular.module('gc.planRow', [
   'gc.intervals',
   'ngGcCapitalize',
   'ngGcCapitalizeEach',
+  'ngGcCurrencySymbolFilter',
   'plan-row-template.html'
 ])
 .directive('planRow', [
